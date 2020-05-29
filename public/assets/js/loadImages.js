@@ -10,6 +10,7 @@ function createEl(htmlString = "", className) {
 }
 
 function loadImages() {
+  console.log("loadImages is being calledd")
   fetch("/api/images")
     .then(res => res.json())
     .then(data => {
@@ -19,6 +20,7 @@ function loadImages() {
 }
 
 function createCards(data) {
+  console.log(data)
   const container = document.getElementsByClassName("container")[0];
   container.innerHTML = "";
   let lastRow;
