@@ -10,7 +10,7 @@ function createEl(htmlString = "", className) {
 }
 
 function loadImages() {
-  console.log("loadImages is being calledd")
+  console.log("loadImages is being calleddd")
   fetch("/api/images")
     .then(res => res.json())
     .then(data => {
