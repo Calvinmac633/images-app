@@ -9,7 +9,7 @@ const FILES_TO_CACHE = [
   '/assets/images/icons/icon-96x96.png',
   '/assets/images/icons/icon-128x128.png',
   '/assets/images/icons/icon-144x144.png',
-  '/assets/images/icons/icon-144x144.png',
+  // '/assets/images/icons/icon-144x144.png',
 ];
 
 const CACHE_NAME = "static-cache-v2";
